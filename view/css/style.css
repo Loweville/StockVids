@@ -1,0 +1,32 @@
+body {
+    background: #eeeeee;
+    margin:0px;
+}
+
+article {
+    max-width:800px;
+    margin:auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    background: #262626;
+    color:#ffffff;
+}
+
+article div { 
+    margin:10px;
+    border-top:1px solid #eeeeee;
+    padding: 30px;
+}
+
+article video {
+    width:100%;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+    cursor: pointer;
+    font-weight: bold;
+}
